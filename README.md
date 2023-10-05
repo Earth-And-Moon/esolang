@@ -21,7 +21,16 @@ The only way to execute a script is to pass it as an argument to <b>esolang.exe<
 ## Programming in Esolang
 Esolang has only memory for **one** one number at a time - it uses a variable which is named `mem` which has a value of `0` at start.
 
-Esolang uses 4 (actually 5) commands.
+Esolang uses 4 (actually 5) commands:
+
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Explanation</th>
+    </tr>
+  </thead>
+</table>
 
 
 
