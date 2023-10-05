@@ -42,10 +42,10 @@ There are 5 commands available in the programming language:
       <td>print(chr(mem)) if mem != -1 else print("")</td>
     </tr>
     <tr>
-      <td>,</td><td>Takes input from the user and sets the value of mem to the Unicode char code of the first char of the input, or to -1 if the user entered empty input.</td>
+      <td>,</td><td>Takes input from the user and sets the value of mem to the Unicode char code of the first char of the input, or to -1 if the user entered empty input.</td><td>x = input(""); mem = id(x[0]) if x != "" else mem = -1<br></td>
     </tr>
     <tr>
-      <td>any other character<br>(also spaces and line-breaks!)</td><td>Causes the program to exit</td>
+      <td>any other character<br>(also spaces and line-breaks!)</td><td>Causes the program to exit</td><td>import sys; sys.exit(0)</td>
     </tr>
   </tbody>
 </table>
