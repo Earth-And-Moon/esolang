@@ -19,9 +19,8 @@ The only way to execute a script is to pass it as an argument to <b>esolang.exe<
 `esolang.exe script.eso`, by dropping it on `esolang.exe`, or by right-clicking it, selecting "Open with" and choosing `esolang.exe` there.
 
 ## Programming in Esolang
-Esolang has only memory for **one** one number at a time - it uses a variable which is named `mem` which has a value of `0` at start.
-
-Esolang uses 4 (actually 5) commands:
+Esolang has only memory for **one** one number at a time - it uses a variable `mem` that has a value of `0` at start.
+There are 4 (actually 5) commands available in the programming language:
 
 <table>
   <thead>
@@ -30,6 +29,11 @@ Esolang uses 4 (actually 5) commands:
       <th>Explanation</th>
     </tr>
   </thead>
+  <tbody>
+    <tr>
+      <td>`+`</td><td>Increase the value of `mem` by `1`</td>
+    </tr>
+  </tbody>
 </table>
 
 
